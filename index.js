@@ -6,7 +6,6 @@ ChangeImg(2, dice2);
 if (dice1 == dice2) {
   document.querySelector(".title-header").innerHTML =
     "<p><i class='fa-regular fa-flag'></i>Draw<i class='fa-regular fa-flag'></i></p>";
-  alert("go");
 } else if (dice1 > dice2) {
   document.querySelector(".title-header").innerHTML =
     "<p><i class='fa-regular fa-flag'></i>   Player 1 WIN!!</p>";
