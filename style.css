@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+    margin: 0;
+    background-color: #804846;
+}
+
+.title {
+    font-size: 4rem;
+    font-family: 'Lobster', cursive;
+    color: #31B9E8;
+}
+
+.p1 {
+    display: inline-block;
+    margin-right: 3rem;
+    font-family: 'Merriweather', serif;
+    color: #31B9E8;
+}
+
+.p2 {
+    display: inline-block;
+    margin-left: 3rem;
+    font-family: 'Merriweather', serif;
+    color: #31B9E8;
+
+}
+.footer
+{
+    color: #31B9E8;
+    margin: 12rem 0 0 0;
+}
+
+@media (max-width: 870px) {
+    .p1 {
+        display: inline-block;
+        margin-right: 2rem;
+    }
+
+    .p2 {
+        display: inline-block;
+        margin-left: 2rem;
+    }
+}
