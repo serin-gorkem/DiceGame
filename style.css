@@ -30,14 +30,21 @@ body {
     margin: 12rem 0 0 0;
 }
 
-@media (max-width: 870px) {
+@media (max-width: 620px) {
     .p1 {
-        display: inline-block;
         margin-right: 2rem;
     }
 
     .p2 {
-        display: inline-block;
         margin-left: 2rem;
+    }
+}
+@media (max-width: 596px) {
+    .p1 {
+        margin-right: 0rem;
+    }
+
+    .p2 {
+        margin-left: 0rem;
     }
 }
